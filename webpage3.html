@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage 3</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ultra Advanced HTML Elements Showcase</h1>
+    <a href="#about" >Intro </a>
+    <a href="#form">Forms</a>
+    <a href="#media">Media</a>
+    <a href="#mathml">MathsML</a>
+    <a href="#accessibility">Accessibility</a>
+    <section id="about">
+    <h2>About this page</h2>
+    <p>This page is a demonstration of nearly <b>every HTML5 tag</b> including semantic elements,forms,multimedia,accesibility,and more - <i>no CSS or JavaScript involved</i> </p>
+    <p><b>Did you know?</b> HTML5 introduced over 30 new tags.</p>
+    </section>
+    <section id="form">
+        
+    <h2>
+        Advanced Form Elements
+    </h2>
+    <form>
+        <fieldset>
+            <legend>Registration</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <label for="dob">Birthday:</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website" placeholder="https://www.example.com"><br>
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file" accept=".jpg,.png,.pdf">
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <label for="language">Language:</label>
+            <input type="checkbox" id="HTML" name="language" value="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="CSS" name="language" value="CSS">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="JavaScript" name="language" value="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+            <br>
+            <label for="progress">Progress:</label>
+            <progress id="progress" value="70" max="100"></progress>
+
+            <br>
+            <label for="battery">Battery Status:</label>
+            <meter id="battery" value="0.75" min="0" max="1" low="0.2" high="0.8" optimum="0.7"></meter><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    </section>
+    <section id="media">
+    <h3>Embedded Media</h3>
+    <video src="video.mp4" controls width="600" autoplay loop></video>
+    <br>
+    <audio src="audio.mp3" controls></audio>
+    <br>
+    <iframe src="https://en.wikipedia.org/wiki/HTML" width="600" height="400" title="Example Iframe"></iframe><br>
+    <img src="image.jpg" alt="Placeholder" width="600">
+    <p>Example Image</p>
+    </section>
+    <section id="mathml">
+    <h3>MathML Example</h3>
+    <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+    </section>
+    <section id="accessibility">
+    <h3>
+        Accessibility & ARIA Roles
+    </h3>
+    <details>
+        <summary>Accessibility Info</summary>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, repellat praesentium. Expedita similique quasi, dolorum libero at amet nam earum neque repudiandae magnam dolores quaerat corporis fuga accusantium pariatur et!</p>    </details>
+<br>
+<dialog open>
+    
+    <p>This is an open dialog box (with no JS.)</p>
+</dialog><br>
+<p>Keyboard command : ctrl+P</p>
+<time datetime="2025-7-31T12:00:00">31st July, 2025</time><br>
+<quote cite="https://www.w3.org/standards/webdesign/htmlcss">
+    "HTML is the foundation of the web."
+</quote>
+    </section>
+    <section id="tables">
+<h3>
+    Tables & Lists
+</h3>
+<table>
+    <caption>User Table</caption>
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>Developer</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>Designer</td>
+    </tr>
+</table>
+<ul type="disc">
+    <li>Semantic Tags</li>
+    <li>Form Elements</li>
+    <li>Media & MathML</li>
+</ul>
+<br>
+<ol type="1">
+    <li>Open File</li>
+    <li>Edit Code</li>
+    <li>Save</li>
+</ol>
+<br>
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>ARIA</dt>
+    <dd>Accessible Rich Internet Applications</dd>
+</dl>
+    </section>
+<P> &COPY; Ultra HTML Demo | All rights reserved</P>
+</body>
+</html>
+<!-- images ka puchna h kaise lgani h
+progress or meter revise krna h
+time tag or date tag kaise lgana h -->
