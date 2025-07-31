@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <form>
+        <h2>Ste 1: Your Details</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+        <h2>Step 2: Delivery address</h2>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+        <label for="postcode">Post Code:</label>
+        <input type="text" id="postcode" name="postcode"><br><br>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country"><br><br>
+
+        <h2>Step 3: Card details</h2>
+        <label for="cardtype">Card Type:</label>
+        <input type="radio" id="visa" name="cardtype" value="visa">
+        <label for="visa">Visa</label>
+        <input type="radio" id="amex" name="cardtype" value="amex">
+        <label for="amex">Amex</label>
+        <input type="radio" id="mastercard" name="cardtype" value="mastercard">
+        <label for="mastercard">MasterCard</label><br><br>
+
+        <label for="cardnumber">Card Number:</label>
+        <input type="text" id="cardnumber" name="cardnumber"><br><br>
+
+        <label for="securitycode">Security Code:</label>
+        <input type="text" id="securitycode" name="securitycode"><br><br>
+
+        <label for="securityurl">Security URL:</label>
+        <input type="url" id="securityurl" name="securityurl" placeholder="Exact on your card"><br><br>
+
+        <button type="button">BUY IT!</button>
+    </form>
+</body>
+</html>

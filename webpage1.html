@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage 1</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Advanced HTML Demo</h1>
+    <br>
+    <a href="#">Home</a><span> | </span>
+    <a href="#">About</a><span> | </span>
+    <a href="#">Contact</a>
+    <h2>Semantic Structure</h2>
+   
+    <article>
+         <h3>Article Section</h3>
+        <p>This is a sample article demonstrating the use of semantic HTML elements.</p>
+        <p>Use ctrl+S to save this file . HTMl5 supports CSS , but this page avoids it for clarity.</p>
+    </article>
+    <aside>
+        <h3>Aside(related)</h3>
+       <p>Useful tip: Save your work regularly!</p>
+    </aside>
+    <h2>Multimedia Elements</h2>
+    <video src="./video.mp4" controls autoplay></video>
+    <audio src="./audio.mp3" controls></audio>
+
+    <section>
+        <h2>Forms & Input Types</h2>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="dob">Birthday:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Search:">
+            <br>
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="1">
+            <br>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section>
+        <h2>Tables, Lists, More</h2>
+        <table>
+            <caption>Team Members</caption>
+            <tr></tr>
+                <th>Name</th>
+                <th>Role</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+        <br>
+        <ul type="disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ol type="A">
+            <li>Alpha</li>
+            <li>Beta</li>
+        </ol>
+        <br>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>JS</dt>
+            <dd>Scripting language</dd>
+    </section>
+    <section>
+        <h2>Embedding Content</h2>
+        <iframe src="https://en.wikipedia.org/wiki/HTML" width="300" height="200" title="Example Iframe"></iframe>
+    </section>
+    <section>
+        <h2>Interactive & Miscellaneous Tags</h2>
+        <details>
+            <summary>Click to expand</summary>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, harum quae sunt odio, beatae animi quas nemo, maiores nulla officiis reprehenderit. Laboriosam recusandae facilis beatae iste amet aut dolore sunt!</p>
+        </details>
+        <label for="battery">Battery:</label>
+        <progress value="80" max="100" style="background-color: green;"></progress>
+
+        <label for="progress">Progress:</label>
+        <progress value="70" max="100"></progress>
+        <dialog open>
+            <p>This is a dialog box.</p>
+        </dialog>
+        <p>Calculation result: 42</p>
+        <p>Today's date is: July 31, 2025</p>
+        <p> Power of 2 : 2 <sup>3</sup> = 8</p>
+        <p> Chemical formula : H<sub>2</sub>O</p>
+        <p> Strikethrough<s>This is outdated</s></p>
+        <p> &copy; 2025 Advanced HTML. Demo . All right reserved.</p>
+        
+    </section>
+</body>
+</html>

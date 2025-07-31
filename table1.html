@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table1</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <table>
+        <h2>Rowspan and Colspan</h2>
+        <tr>
+            <th colspan="2"> Your Full Name</th>
+            <th> Course Codes</th>
+            <th> Status</th>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">My First Name is <br> <b>Muhammad</b></td>
+            <td> IT 242</td>
+            <td rowspan="2">Completed</td>
+        </tr>
+        <tr>
+            <td>IT 445</td>
+        </tr>
+        <tr>
+            <td rowspan="2">My Second Name is <br> <b>Ali</b></td>
+            <td rowspan="2">My Family Name is <br> <b>AL Shehri</b></td>
+            <td> IT 241</td>
+            <td rowspan="2">In Progress</td>
+        </tr>
+        <tr>
+            <td>IT 230</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center;"><b>The End</b></td>
+        </tr>
+    </table>
+</body>
+</html>
